@@ -2,6 +2,7 @@ import Titulo from "../components/Titulo"
 import Campo from "../components/Campo" 
 import Conteudo from "../components/Conteudo"
 import { useParams } from "react-router-dom"
+import passaro from "../assets/passaro.jpg"
 
 export default function Postagem() {
 
@@ -15,7 +16,7 @@ export default function Postagem() {
 
             <Conteudo 
 
-                foto="../assets/pessoa.jpg" 
+                foto={passaro}
 
                 nome={ "@" + nome }
 

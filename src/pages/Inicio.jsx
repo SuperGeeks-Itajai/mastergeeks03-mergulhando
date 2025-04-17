@@ -1,6 +1,8 @@
 import Titulo from "../components/Titulo"
 import Campo from "../components/Campo"
 import Conteudo from "../components/Conteudo"
+import pessoa from "../assets/pessoa.jpg"
+import passaro from "../assets/passaro.jpg"
 
 export default function Inicio() {
 
@@ -12,7 +14,7 @@ export default function Inicio() {
 
             <Conteudo
 
-                foto="../assets/pessoa.jpg"
+                foto= {pessoa}
 
                 nome="@pessoa1"
 
@@ -22,9 +24,8 @@ export default function Inicio() {
 
             <Conteudo
 
-                foto="../assets/passaro.jpg"
-
-                nome="@pessoa2"
+                foto={passaro}
+                nome="passaro"
 
                 descricao="Lorem ipsum dolor sit, amet consectetur..."
 
